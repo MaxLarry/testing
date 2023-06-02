@@ -41,10 +41,10 @@ def auth_required(f):
 
     return decorated
 
-
+#welcome-page
 @app.route("/")
 @auth_required
-def hello_world():
+def Welcome_page():
     return "<p>Welcome to My Final Drill. My name is Larry John</p>"
 
 
